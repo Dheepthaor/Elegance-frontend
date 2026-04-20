@@ -5,6 +5,7 @@ import { Layout } from "@/components/layout/Layout";
 import { useCart } from "@/context/CartContext";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { toast } from "sonner";
 
 const ProductDetail = () => {
   const { id } = useParams();
@@ -249,9 +250,9 @@ const ProductDetail = () => {
               className="w-full py-6 bg-white border border-black text-black hover:bg-black hover:text-white"
               onClick={() => {
                 if (!selectedSize) {
-                  alert("Select size");
-                  return;
-                }
+  toast.error("Please select a size");
+  return;
+}
 
                 addItem({ product, quantity, size: selectedSize });
                 navigate("/cart");
