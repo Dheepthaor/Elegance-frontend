@@ -1,0 +1,291 @@
+export const products = [
+  {
+    id: '1',
+    name: 'Oversized Wool Blend Coat',
+    description: 'Luxurious oversized coat crafted from a premium wool blend. Features a classic lapel collar, double-breasted closure, and side pockets. Perfect for layering during colder months.',
+    price: 299,
+    originalPrice: 399,
+    images: [
+      'https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=800&q=80',
+      'https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=800&q=80',
+    ],
+    category: 'women',
+    subcategory: 'Coats',
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: [
+      { name: 'Camel', hex: '#C19A6B' },
+      { name: 'Black', hex: '#1a1a1a' },
+      { name: 'Gray', hex: '#808080' },
+    ],
+    rating: 4.8,
+    reviews: 124,
+    inStock: true,
+    isSale: true,
+    isBestseller: true,
+  },
+  {
+    id: '2',
+    name: 'Slim Fit Italian Wool Suit',
+    description: 'Impeccably tailored slim-fit suit made from fine Italian wool. Features a notched lapel, two-button closure, and functional cuff buttons. Includes matching trousers.',
+    price: 549,
+    images: [
+      'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80',
+      'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80',
+    ],
+    category: 'men',
+    subcategory: 'Suits',
+    sizes: ['46', '48', '50', '52', '54'],
+    colors: [
+      { name: 'Navy', hex: '#1a237e' },
+      { name: 'Charcoal', hex: '#36454F' },
+      { name: 'Black', hex: '#1a1a1a' },
+    ],
+    rating: 4.9,
+    reviews: 89,
+    inStock: true,
+    isNew: true,
+  },
+  {
+    id: '3',
+    name: 'Cashmere V-Neck Sweater',
+    description: 'Exceptionally soft cashmere sweater with a classic V-neck design. Lightweight yet warm, perfect for layering or wearing on its own.',
+    price: 189,
+    images: [
+      'https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800&q=80',
+      'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&q=80',
+    ],
+    category: 'women',
+    subcategory: 'Knitwear',
+    sizes: ['XS', 'S', 'M', 'L'],
+    colors: [
+      { name: 'Cream', hex: '#FFFDD0' },
+      { name: 'Blush', hex: '#DE5D83' },
+      { name: 'Forest', hex: '#228B22' },
+    ],
+    rating: 4.7,
+    reviews: 156,
+    inStock: true,
+    isBestseller: true,
+  },
+  {
+    id: '4',
+    name: 'Premium Denim Jacket',
+    description: 'Classic denim jacket crafted from premium selvedge denim. Features a timeless trucker silhouette with chest pockets and button closure.',
+    price: 159,
+    images: [
+      'https://images.unsplash.com/photo-1551537482-f2075a1d41f2?w=800&q=80',
+      'https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=800&q=80',
+    ],
+    category: 'men',
+    subcategory: 'Jackets',
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+    colors: [
+      { name: 'Indigo', hex: '#3F51B5' },
+      { name: 'Light Wash', hex: '#87CEEB' },
+      { name: 'Black', hex: '#1a1a1a' },
+    ],
+    rating: 4.6,
+    reviews: 203,
+    inStock: true,
+  },
+  {
+    id: '5',
+    name: 'Silk Midi Dress',
+    description: 'Elegant silk midi dress with a flattering bias cut. Features delicate spaghetti straps and a subtle cowl neckline. Perfect for special occasions.',
+    price: 279,
+    originalPrice: 349,
+    images: [
+      'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&q=80',
+      'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800&q=80',
+    ],
+    category: 'women',
+    subcategory: 'Dresses',
+    sizes: ['XS', 'S', 'M', 'L'],
+    colors: [
+      { name: 'Champagne', hex: '#F7E7CE' },
+      { name: 'Emerald', hex: '#50C878' },
+      { name: 'Burgundy', hex: '#800020' },
+    ],
+    rating: 4.8,
+    reviews: 78,
+    inStock: true,
+    isSale: true,
+  },
+  {
+    id: '6',
+    name: 'Kids Cotton Polo Set',
+    description: 'Comfortable cotton polo shirt and shorts set perfect for active kids. Breathable fabric with stretch for easy movement.',
+    price: 49,
+    images: [
+      'https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=800&q=80',
+      'https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=800&q=80',
+    ],
+    category: 'kids',
+    subcategory: 'Sets',
+    sizes: ['3-4Y', '5-6Y', '7-8Y', '9-10Y'],
+    colors: [
+      { name: 'Navy', hex: '#1a237e' },
+      { name: 'White', hex: '#FFFFFF' },
+      { name: 'Red', hex: '#FF0000' },
+    ],
+    rating: 4.5,
+    reviews: 67,
+    inStock: true,
+    isNew: true,
+  },
+  {
+    id: '7',
+    name: 'Italian Leather Belt',
+    description: 'Handcrafted belt made from premium Italian leather. Features a sleek brushed metal buckle and precision stitching.',
+    price: 89,
+    images: [
+      'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80',
+      'https://images.unsplash.com/photo-1624222247344-550fb60583dc?w=800&q=80',
+    ],
+    category: 'accessories',
+    subcategory: 'Belts',
+    sizes: ['S', 'M', 'L', 'XL'],
+    colors: [
+      { name: 'Tan', hex: '#D2B48C' },
+      { name: 'Black', hex: '#1a1a1a' },
+      { name: 'Brown', hex: '#8B4513' },
+    ],
+    rating: 4.7,
+    reviews: 145,
+    inStock: true,
+  },
+  {
+    id: '8',
+    name: 'High-Rise Wide Leg Trousers',
+    description: 'Sophisticated high-rise trousers with a flattering wide leg silhouette. Made from a premium crepe fabric with subtle stretch.',
+    price: 129,
+    images: [
+      'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800&q=80',
+      'https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&q=80',
+    ],
+    category: 'women',
+    subcategory: 'Trousers',
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: [
+      { name: 'Black', hex: '#1a1a1a' },
+      { name: 'Ivory', hex: '#FFFFF0' },
+      { name: 'Olive', hex: '#808000' },
+    ],
+    rating: 4.6,
+    reviews: 92,
+    inStock: true,
+    isBestseller: true,
+  },
+  {
+    id: '9',
+    name: 'Oxford Button-Down Shirt',
+    description: 'Classic Oxford cloth button-down shirt with a relaxed fit. Features a soft collar and chest pocket. A wardrobe essential.',
+    price: 79,
+    images: [
+      'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&q=80',
+      'https://images.unsplash.com/photo-1603252109303-2751441dd157?w=800&q=80',
+    ],
+    category: 'men',
+    subcategory: 'Shirts',
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+    colors: [
+      { name: 'White', hex: '#FFFFFF' },
+      { name: 'Light Blue', hex: '#ADD8E6' },
+      { name: 'Pink', hex: '#FFB6C1' },
+    ],
+    rating: 4.8,
+    reviews: 312,
+    inStock: true,
+  },
+  {
+    id: '10',
+    name: 'Leather Crossbody Bag',
+    description: 'Compact yet spacious crossbody bag crafted from supple pebbled leather. Features an adjustable strap and multiple interior compartments.',
+    price: 199,
+    originalPrice: 249,
+    images: [
+      'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80',
+      'https://images.unsplash.com/photo-1591561954555-607968c989ab?w=800&q=80',
+    ],
+    category: 'accessories',
+    subcategory: 'Bags',
+    sizes: ['One Size'],
+    colors: [
+      { name: 'Black', hex: '#1a1a1a' },
+      { name: 'Cognac', hex: '#9A463D' },
+      { name: 'Taupe', hex: '#483C32' },
+    ],
+    rating: 4.9,
+    reviews: 187,
+    inStock: true,
+    isSale: true,
+  },
+  {
+    id: '11',
+    name: 'Linen Blend Blazer',
+    description: 'Lightweight linen blend blazer perfect for summer. Features a relaxed unstructured design with patch pockets.',
+    price: 229,
+    images: [
+      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80',
+      'https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?w=800&q=80',
+    ],
+    category: 'men',
+    subcategory: 'Blazers',
+    sizes: ['S', 'M', 'L', 'XL'],
+    colors: [
+      { name: 'Beige', hex: '#F5F5DC' },
+      { name: 'Navy', hex: '#1a237e' },
+      { name: 'Sage', hex: '#9DC183' },
+    ],
+    rating: 4.5,
+    reviews: 56,
+    inStock: true,
+    isNew: true,
+  },
+  {
+    id: '12',
+    name: 'Kids Winter Parka',
+    description: 'Warm and durable winter parka with water-resistant outer shell. Features a cozy fleece lining and detachable hood.',
+    price: 119,
+    originalPrice: 149,
+    images: [
+      'https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=800&q=80',
+      'https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=800&q=80',
+    ],
+    category: 'kids',
+    subcategory: 'Outerwear',
+    sizes: ['3-4Y', '5-6Y', '7-8Y', '9-10Y', '11-12Y'],
+    colors: [
+      { name: 'Navy', hex: '#1a237e' },
+      { name: 'Burgundy', hex: '#800020' },
+      { name: 'Forest', hex: '#228B22' },
+    ],
+    rating: 4.7,
+    reviews: 98,
+    inStock: true,
+    isSale: true,
+  },
+];
+
+export const categories = [
+  { id: 'women', name: 'Women', image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800&q=80' },
+  { id: 'men', name: 'Men', image: 'https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?w=800&q=80' },
+  { id: 'kids', name: 'Kids', image: 'https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=800&q=80' },
+  { id: 'accessories', name: 'Accessories', image: 'https://images.unsplash.com/photo-1523779917675-b6ed3a42a561?w=800&q=80' },
+];
+
+export const getProductById = (id) => {
+  return products.find((p) => p.id === id);
+};
+
+export const getProductsByCategory = (category) => {
+  return products.filter((p) => p.category === category);
+};
+
+export const getFeaturedProducts = () => {
+  return products.filter((p) => p.isBestseller || p.isNew).slice(0, 8);
+};
+
+export const getSaleProducts = () => {
+  return products.filter((p) => p.isSale);
+};

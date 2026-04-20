@@ -1,0 +1,20 @@
+import { Layout } from "@/components/layout/Layout";
+import { HeroSection } from "@/components/home/HeroSection";
+import { CategorySection } from "@/components/home/CategorySection";
+import { FeaturedProducts } from "@/components/home/FeaturedProducts";
+import { PromoBanner } from "@/components/home/PromoBanner";
+import { Features } from "@/components/home/Features";
+
+const Index = () => {
+  return (
+    <Layout>
+      <HeroSection />
+      <CategorySection />
+      <FeaturedProducts />
+      <PromoBanner />
+      <Features />
+    </Layout>
+  );
+};
+
+export default Index;
